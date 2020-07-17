@@ -2,8 +2,8 @@
 
 This app displays the first 33 Survivor winners, and has profile pages for each that shows a photo of them, how many votes they were away from a perfect game, the percentage of time they voted correctly, and how many times they have played.
 
-![Home Page](../screenshots/home.png)
-![Player Profile](../screenshots/profile.png)
+[Home Page](../screenshots/home.png)
+[Player Profile](../screenshots/profile.png)
 
 ### Prerequisites
 
