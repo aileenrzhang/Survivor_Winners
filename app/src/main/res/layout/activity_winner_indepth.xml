@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_two"
+    tools:context=".winner_indepth">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/s1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/name_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name void"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/season_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="season void"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_placeholder" />
+
+    <TextView
+        android:id="@+id/votes_away"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/votes_away"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/season_placeholder" />
+
+    <TextView
+        android:id="@+id/votes_away_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="void"
+        app:layout_constraintStart_toEndOf="@+id/votes_away"
+        app:layout_constraintTop_toBottomOf="@+id/season_placeholder" />
+
+    <TextView
+        android:id="@+id/correct_votes_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="void"
+        app:layout_constraintStart_toEndOf="@+id/correct_votes"
+        app:layout_constraintTop_toBottomOf="@+id/votes_away" />
+
+    <TextView
+        android:id="@+id/correct_votes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correct_votes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/votes_away" />
+
+    <TextView
+        android:id="@+id/times_played"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/times_played"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correct_votes" />
+
+    <TextView
+        android:id="@+id/times_played_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="void"
+        app:layout_constraintStart_toEndOf="@+id/times_played"
+        app:layout_constraintTop_toBottomOf="@+id/correct_votes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

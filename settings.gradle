@@ -1,0 +1,2 @@
+rootProject.name='Survivor Winners'
+include ':app'

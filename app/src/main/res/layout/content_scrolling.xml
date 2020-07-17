@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:id="@+id/linlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside">
+
+        <ImageButton
+            android:id="@+id/s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s1"
+            app:srcCompat="@drawable/hatch"/>
+
+        <ImageButton
+            android:id="@+id/s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s2"
+            app:srcCompat="@drawable/tina" />
+
+        <ImageButton
+            android:id="@+id/s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s3"
+            app:srcCompat="@drawable/ethan" />
+
+        <ImageButton
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s4"
+            app:srcCompat="@drawable/vecepia" />
+
+        <ImageButton
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s5"
+            app:srcCompat="@drawable/brian" />
+
+        <ImageButton
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s6"
+            app:srcCompat="@drawable/jenna" />
+
+        <ImageButton
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s7"
+            app:srcCompat="@drawable/sandra" />
+
+        <ImageButton
+            android:id="@+id/s8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s18"
+            app:srcCompat="@drawable/amber" />
+
+        <ImageButton
+            android:id="@+id/s9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s9"
+            app:srcCompat="@drawable/chrisd" />
+
+        <ImageButton
+            android:id="@+id/s10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s10"
+            app:srcCompat="@drawable/tom" />
+
+        <ImageButton
+            android:id="@+id/s11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s11"
+            app:srcCompat="@drawable/danni" />
+
+        <ImageButton
+            android:id="@+id/s12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s12"
+            app:srcCompat="@drawable/aras" />
+
+        <ImageButton
+            android:id="@+id/s13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s13"
+            app:srcCompat="@drawable/yul" />
+
+        <ImageButton
+            android:id="@+id/s14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s14"
+            app:srcCompat="@drawable/earl" />
+
+        <ImageButton
+            android:id="@+id/s15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s15"
+            app:srcCompat="@drawable/todd" />
+
+        <ImageButton
+            android:id="@+id/s16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s16"
+            app:srcCompat="@drawable/parvati" />
+
+        <ImageButton
+            android:id="@+id/s17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s17"
+            app:srcCompat="@drawable/bob" />
+
+        <ImageButton
+            android:id="@+id/s18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s18"
+            app:srcCompat="@drawable/jt" />
+
+        <ImageButton
+            android:id="@+id/s19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s19"
+            app:srcCompat="@drawable/nataliew" />
+
+        <ImageButton
+            android:id="@+id/s20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s20"
+            app:srcCompat="@drawable/sandrahvv" />
+
+        <ImageButton
+            android:id="@+id/s21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s21"
+            app:srcCompat="@drawable/fabio" />
+
+        <ImageButton
+            android:id="@+id/s22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s22"
+            app:srcCompat="@drawable/rob" />
+
+        <ImageButton
+            android:id="@+id/s23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s23"
+            app:srcCompat="@drawable/sophie" />
+
+        <ImageButton
+            android:id="@+id/s24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s24"
+            app:srcCompat="@drawable/kim" />
+
+        <ImageButton
+            android:id="@+id/s25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s25"
+            app:srcCompat="@drawable/denise" />
+
+        <ImageButton
+            android:id="@+id/s26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s26"
+            app:srcCompat="@drawable/cochran" />
+
+        <ImageButton
+            android:id="@+id/s27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s27"
+            app:srcCompat="@drawable/tyson" />
+
+        <ImageButton
+            android:id="@+id/s28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s28"
+            app:srcCompat="@drawable/tony" />
+
+        <ImageButton
+            android:id="@+id/s29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s29"
+            app:srcCompat="@drawable/nataliea" />
+
+        <ImageButton
+            android:id="@+id/s30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s30"
+            app:srcCompat="@drawable/mike" />
+
+        <ImageButton
+            android:id="@+id/s31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s31"
+            app:srcCompat="@drawable/jeremy" />
+
+        <ImageButton
+            android:id="@+id/s32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s32"
+            app:srcCompat="@drawable/michele" />
+
+        <ImageButton
+            android:id="@+id/s33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/s33"
+            app:srcCompat="@drawable/adam" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
