@@ -2,21 +2,18 @@
 
 This app displays the first 33 Survivor winners, and has profile pages for each that shows a photo of them, how many votes they were away from a perfect game, the percentage of time they voted correctly, and how many times they have played.
 
-[Home Page](screenshots/home.png)
-[Player Profile](screenshots/profile.png)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+! [Home Page](../screenshots/home.png)
+! [Player Profile](../screenshots/profile.png)
 
 ### Prerequisites
 
 Minimum version of Android platform on which app will run: 16
+
 App is designed to run at this API level: 29
 
 ### Installing
 
-APK file is located at [survivor-winners.md](./app/build/outputs/apk/debug/survivor-winners.apk)
+APK file is located at [survivor-winners.md](../survivorwinners/releases/latest-survivorwinners.apk)
 
 This can be downloaded on any Android device so long as it meets the prerequisites stated above. If the app does not install right away, try bypassing download restrictions to allow downloading from unknown sources.
 
